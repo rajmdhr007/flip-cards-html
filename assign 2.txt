@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 2</title>
+</head>
+<body>
+   
+    <div class="flex-container">
+     
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#bgContainer">About</a></li>
+          <li><a href="#flipCardContainer">Feedback</a></li>
+          <li><a href="#footerContainer">Contact us</a></li>
+        </ul>
+      </div>
+
+
+    
+
+      <div class="bgContainer" id="bgContainer">
+      <img src="s.jpg" alt="Background Cover Image" class="bgImage">
+      </div>
+
+
+
+      <!-- Flip Cards -->
+      <div class="flipCardContainer" id="flipCardContainer">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="p.jpg" alt="Avatar" id="avtarImg">
+          </div>
+          <div class="flip-card-back" id="fcb1">
+            <h1>Pashupatinath</h1> 
+            
+        
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="ss.jpg" alt="Avatar" id="avtarImg">
+          </div>
+          <div class="flip-card-back"  id="fcb2">
+            <h1>Syambhunath</h1> 
+            
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="b.jpg" alt="Avatar" id="avtarImg">
+          </div>
+          <div class="flip-card-back"  id="fcb3">
+            <h1>Boudhanath</h1> 
+           
+          </div>
+        </div>
+      </div>
+ <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="b.jpg" alt="Avatar" id="avtarImg">
+          </div>
+          <div class="flip-card-back"  id="fcb3">
+            <h1>Boudhanath</h1> 
+           
+          </div>
+        </div>
+      </div>
+</div>
+
+
+       
+        
+
+   
+
+    <div class="footerContainer" id="footerContainer">
+        <footer>
+            <p>Author: Raj Manandhar<br>
+                
+        
+          </footer>
+
+    </div>
+    
+</body>
+</html>
